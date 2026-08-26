@@ -46,3 +46,13 @@
 //const brandElement = document.getElementById('brand');
 
 //brandElement.innerText = 'jalal slepping brand';
+
+//get elementByClassName :
+
+//const farenElements = document.getElementsByClassName('faren');
+//console.log("farenElements");
+//
+//    for (const element of farenElements){
+//    console.log ('elements');
+//    }
+//    console.log(element.innerText);
