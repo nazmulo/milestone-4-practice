@@ -15,3 +15,15 @@
 //}
 //
 //console.log(li.innerText);
+
+//2
+
+//const allHeading = document.getElementsByTagName(h1); 
+//console.log (allHeading);
+
+//for (const heading of allHeading) {
+//    //console.log(heading)
+//    console.log(heading.innerText);
+//}
+
+//3 inner text change korte :
