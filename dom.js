@@ -27,3 +27,6 @@
 //}
 
 //3 inner text change korte :
+
+//const allHeading = document.getElementsByTagName (h1);
+//       allHeading.innerText = 'Jahan';
