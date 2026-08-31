@@ -56,3 +56,19 @@
 //    console.log ('elements');
 //    }
 //    console.log(element.innerText);
+
+//query selector all :
+
+//1
+ 
+//document.querySelectorAll(".food.forenge");
+//
+//document.querySelectorAll("#old.p.span");
+//
+//foodElement.innerText
+//foodElement.style.color = "blue"
+//foodElement.style.backgroundColor = "gold"
+//foodElement.style.borderRadius = "0px"
+//foodElement.style.padding = "50px"
+//foodElement.style.marginLeft = "20px"
+//foodElement.style.textAlign = "center"
