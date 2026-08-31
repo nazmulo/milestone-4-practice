@@ -72,3 +72,11 @@
 //foodElement.style.padding = "50px"
 //foodElement.style.marginLeft = "20px"
 //foodElement.style.textAlign = "center"
+
+
+//class-list :
+
+foodElement.classList.add('bg-red');
+foodElement.classList.add('bold');
+foodElement.classList.add('big');
+foodElement.classList.remove('bg-red');
