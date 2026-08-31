@@ -101,4 +101,10 @@
 //
 //document.getElementById('player-container').childNodes[3].ChildNodes;
 //
-//document.getElementById('player-container').childNodes[3];childNodes[0];
+//document.getElementById('player-container').childNodes[3].childNodes[0];
+
+//parent-nodes:
+//
+//document.getElementById('player-container').childNodes[3].childNodes[0].parentNodes
+//
+//document.getElementById('player-container').childNodes[3].childNodes[0].parentNodes.parentNodes;
