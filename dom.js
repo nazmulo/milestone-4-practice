@@ -119,3 +119,22 @@
 //const newChild = document.createElement('li');
 //
 //newChild.innerText = 'new born baby';
+
+
+//practice :
+
+// akhane id 'player-list'
+
+// 1. create element and set innerText or innerHtml :
+
+//const newChild = document.createElement('li');
+//newChild.innerText = 'new born footballer';
+
+// 2. find the parent where you will add the child :
+
+//const playList = document.getElementById('player-list');
+
+// 3. append the child to the parent :
+
+//playerList.appendChild('newChild');
+
