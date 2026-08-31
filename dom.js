@@ -86,3 +86,19 @@
 //foodElement.getAttribute('id');
 //foodElement.getAttribute('class');
 //foodElement.setAttribute('tittle');
+
+//nodeList :
+
+//document.getElementById('player-container').childNodes;
+//
+//document.getElementById('player-container').childNodes[0];
+//
+//document.getElementById('player-container').childNodes[1];
+//
+//document.getElementById('player-container').childNodes[2];
+//
+//document.getElementById('player-container').childNodes[3];
+//
+//document.getElementById('player-container').childNodes[3].ChildNodes;
+//
+//document.getElementById('player-container').childNodes[3];childNodes[0];
