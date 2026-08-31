@@ -162,3 +162,16 @@
 //li2.innerText = 'sunderban';
 //ul.appendChild('li2');
 //placeSection.appendChild('ul');
+
+//easy way to create HTML :
+
+const bookSection = document.createElement ('section');
+bookSection.innerHTML = 
+
+'<h1>book</h1>
+<ul>
+    <li>physic</li>
+    <li>chemistry</li>
+</ul>';
+
+mainContainer.appendChild('bookSection');
