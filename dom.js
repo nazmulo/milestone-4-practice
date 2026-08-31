@@ -108,3 +108,14 @@
 //document.getElementById('player-container').childNodes[3].childNodes[0].parentNodes
 //
 //document.getElementById('player-container').childNodes[3].childNodes[0].parentNodes.parentNodes;
+
+//create element :
+
+//document.createElement('p');
+//document.createElement('li');
+//document.createElement('h1');
+//document.createElement('span');
+//
+//const newChild = document.createElement('li');
+//
+//newChild.innerText = 'new born baby';
