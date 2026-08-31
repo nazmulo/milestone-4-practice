@@ -76,7 +76,13 @@
 
 //class-list :
 
-foodElement.classList.add('bg-red');
-foodElement.classList.add('bold');
-foodElement.classList.add('big');
-foodElement.classList.remove('bg-red');
+//foodElement.classList.add('bg-red');
+//foodElement.classList.add('bold');
+//foodElement.classList.add('big');
+//foodElement.classList.remove('bg-red');
+//
+//attribute:
+
+//foodElement.getAttribute('id');
+//foodElement.getAttribute('class');
+//foodElement.setAttribute('tittle');
