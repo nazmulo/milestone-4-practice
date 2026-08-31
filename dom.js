@@ -146,3 +146,19 @@
 //h1.innerText = 'HOW ARE YOY';
 //placeSection.appendChild('h1');
 //mainContainer.appendChild('placeSection');
+
+// 3 -
+
+//const h1 = document.createElement ('h1');
+//h1.innerText = "place i want top visit";
+//placeSection.appendChild('h1');
+//
+//const ul = document.createElement ('ul');
+//const li1 = document.createElement('li');
+//li1.innerText = 'bandorban';
+//ul.appendChild('li1');
+//
+//const li2 = document.createElement('li');
+//li2.innerText = 'sunderban';
+//ul.appendChild('li2');
+//placeSection.appendChild('ul');
