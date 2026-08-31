@@ -138,3 +138,11 @@
 
 //playerList.appendChild('newChild');
 
+// 2 -
+
+//const mainContainer = document.getElementById('main-container');
+//const placeSection = document.createElement('section');
+//const h1 = document.createElement('h1');
+//h1.innerText = 'HOW ARE YOY';
+//placeSection.appendChild('h1');
+//mainContainer.appendChild('placeSection');
