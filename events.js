@@ -50,5 +50,7 @@ document.getElementById('btn-login')
 document.getElementById('btn-post-comment').addEventListener('click', function(){
               //step-2 : get the text written in the comment textarea
         const commentTextBox = document.getElementById('comment-text-box');
-        const newComment = commentTextBox.ariaValueMax;
+        const newComment = commentTextBox.value;
+              // step-3 : get the parent node where to publish comment
+        const commentContainer = document.getElementById('comment-container');
 })
