@@ -45,21 +45,30 @@ document.getElementById('btn-login')
 
 //create a comment box and display comment : -
 
-               //step-1 : set a event handler to the button
+document.getElementById('btn-post-comment').addEventListener('click', function () {
 
-document.getElementById('btn-post-comment').addEventListener('click', function(){
-              //step-2 : get the text written in the comment textarea
-        const commentTextBox = document.getElementById('comment-text-box');
-        const newComment = commentTextBox.value;
-              // step-3 : get the parent node where to publish comment
-        const commentContainer = document.getElementById('comment-container');
-              // step -4 : create a comment p and set the comment text
-        const commentElement = document.createElement('p');
-        commentElement.classList.add('comment');
-        commentElement.innerText = "new comment"
-               //step -5 : append the new p tag to the parent node 
-        commentContainer.appendChild('commentElement');
-             //step -6 : clean the text area
-        commentTextBox.value = " ";
+    // Get the textarea
+    const commentTextBox = document.getElementById('comment-text-box');
 
-})
+    // Get the written comment
+    const newComment = commentTextBox.value;
+
+    // Get the comment container
+    const commentContainer = document.getElementById('comment-container');
+
+    // Create a new p element
+    const commentElement = document.createElement('p');
+
+    // Add class
+    commentElement.classList.add('comment');
+
+    // Put the comment inside p
+    commentElement.innerText = newComment;
+
+    // Add p to the container
+    commentContainer.appendChild(commentElement);
+
+    // Clear textarea
+    commentTextBox.value = '';
+
+});
