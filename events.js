@@ -30,3 +30,15 @@ document.getElementById('btn-make-pink').addEventListener('click',
         document.body.style.backgroundColor = 'pink';
     }
 )
+
+document.getElementById('btn-update-tittle')
+.addEventListener('click', function () {
+    const page = document.getElementById('page-tittle');
+    page.innerText = 'update page tittle text';
+})
+
+document.getElementById('btn-login')
+.addEventListener('click', function () {
+    const userInfoEi = document.getElementById('user-info');
+    userInfoEi.innerText = 'log in better';
+})
