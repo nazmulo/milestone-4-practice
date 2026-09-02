@@ -72,3 +72,9 @@ document.getElementById('btn-post-comment').addEventListener('click', function (
     commentTextBox.value = '';
 
 });
+
+// mouse mover :
+
+document.getElementById('btn-mouse').addEventListener('mouseenter', function(){
+    console.log('toggle')
+})
