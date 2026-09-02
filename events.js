@@ -42,3 +42,13 @@ document.getElementById('btn-login')
     const userInfoEi = document.getElementById('user-info');
     userInfoEi.innerText = 'log in better';
 })
+
+//create a comment box and display comment : -
+
+               //step-1 : set a event handler to the button
+
+document.getElementById('btn-post-comment').addEventListener('click', function(){
+              //step-2 : get the text written in the comment textarea
+        const commentTextBox = document.getElementById('comment-text-box');
+        const newComment = commentTextBox.ariaValueMax;
+})
