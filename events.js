@@ -75,6 +75,10 @@ document.getElementById('btn-post-comment').addEventListener('click', function (
 
 // mouse mover :
 
-document.getElementById('btn-mouse').addEventListener('mouseenter', function(){
+//document.getElementById('btn-mouse').addEventListener('mouseenter', function(){
+//    console.log('toggle')
+//})
+
+document.getElementById('btn-mouse').addEventListener('mousemove', function(){
     console.log('toggle')
 })
