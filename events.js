@@ -79,6 +79,10 @@ document.getElementById('btn-post-comment').addEventListener('click', function (
 //    console.log('toggle')
 //})
 
-document.getElementById('btn-mouse').addEventListener('mousemove', function(){
+//document.getElementById('btn-mouse').addEventListener('mousemove', function(){
+//    console.log('toggle')
+//})
+
+document.getElementById('btn-mouse').addEventListener('focus', function(){
     console.log('toggle')
 })
