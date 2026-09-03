@@ -43,8 +43,9 @@
         // list item 2 click handler
         
         document.getElementById('item-2')
-        .addEventListener('click', function () {
+        .addEventListener('click', function (event) {
             console.log('item 2 click');
+            event.stopPropagation();
         })
 
 
